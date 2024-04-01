@@ -1,0 +1,145 @@
+﻿@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Padkova-bold';
+    src: url('../fonts/Podkova-Bold.ttf') format('truetype') ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Fasthand&family=Sansita:wght@800&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-color:white;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    top:0;
+    left:0;
+    z-index: 1000;
+    color: white;
+    width:100%;
+    padding: 10px 0;
+}
+a:hover {
+    color: #6A1B9A;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+}
+
+.image-profile{
+    border-radius: 50px;
+}
+
+    nav ul li {
+        margin: 0 10px;
+    }
+ nav ul li a {
+     text-decoration: none;       
+     color: black;
+ }
+
+
+
+
+
+
+
+
+
+.how-it-works {
+    /*display: flex;*/
+    justify-content: space-between;
+    padding: 50px;
+    /* background-color: #f0f0f0; */
+}
+
+    .how-it-works .description {
+        flex-basis: auto;
+       
+    }
+
+
+.button-btn1 {
+    background-color: #8394E3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.button-btn2 {
+    background-color: #4DE74F;
+    color: black;
+    border:thin;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+
+ 
+}
+.image {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+
+
+.title {
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+    font-family:Poppins-SemiBold;
+}
+
+.button-btn2 a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+}
+
+.img_beyondtrend{
+   height:225px;
+   width: 1286px;
+
+}
+
+
+.direct-image{
+    border-radius:500px;
+    border:solid;
+    color: black;
+}
+
+.nav-ul{
+    font-family: Poppins-SemiBold;
+    font-size:20px;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
